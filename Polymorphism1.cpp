@@ -5,8 +5,8 @@ using namespace std;
 class base
 {
 public:
-    void print()
-    // void virtual print()
+    // void print()
+    void virtual print()
     {
         cout << "Base Class print function\n";
     }
